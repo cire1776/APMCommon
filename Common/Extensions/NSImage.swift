@@ -5,12 +5,12 @@
 //  Created by Eric Russell on 7/26/22.
 //
 
+#if os(macOS)
 import Cocoa
 
-#if os(macOS)
 public typealias UIImage = NSImage
 
-extension NSImage {
+public extension NSImage {
     var cgImage: CGImage? {
         var proposedRect = CGRect(origin: .zero, size: size)
 

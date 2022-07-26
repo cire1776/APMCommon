@@ -260,13 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63729877288FE42200E8883E /* NSImage.swift in Sources */,
 				6372986E288F656000E8883E /* Int.swift in Sources */,
 				63729879288FE5F100E8883E /* UIColor.swift in Sources */,
 				6372986D288F656000E8883E /* CGSize.swift in Sources */,
 				63294E4228900733004BAC15 /* URL.swift in Sources */,
 				6372986C288F656000E8883E /* CGPoint.swift in Sources */,
 				63729875288FE08200E8883E /* SKNode.swift in Sources */,
-				63729877288FE42200E8883E /* NSImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
