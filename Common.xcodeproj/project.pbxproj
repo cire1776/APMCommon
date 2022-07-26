@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		63294E4228900733004BAC15 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E4128900733004BAC15 /* URL.swift */; };
 		63294E442890077B004BAC15 /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E432890077B004BAC15 /* URLTests.swift */; };
+		63294E4828907FF6004BAC15 /* Miscellaneous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E4728907FF6004BAC15 /* Miscellaneous.swift */; };
 		6372985B288F64A600E8883E /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63729846288F637900E8883E /* libCommon.a */; };
 		63729865288F650900E8883E /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729864288F650900E8883E /* CGPointTests.swift */; };
 		63729868288F653600E8883E /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729867288F653600E8883E /* IntTests.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		63294E4128900733004BAC15 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		63294E432890077B004BAC15 /* URLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
+		63294E4728907FF6004BAC15 /* Miscellaneous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miscellaneous.swift; sourceTree = "<group>"; };
 		63729846288F637900E8883E /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63729857288F64A600E8883E /* CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63729864288F650900E8883E /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				63729872288FE01800E8883E /* SpriteKit */,
 				63729873288FE02300E8883E /* Support & Helpers */,
 				63729866288F651A00E8883E /* Extensions */,
+				63294E4728907FF6004BAC15 /* Miscellaneous.swift */,
 			);
 			path = CommonTests;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				6372987B288FF0AB00E8883E /* SKNodeTests.swift in Sources */,
 				63729868288F653600E8883E /* IntTests.swift in Sources */,
+				63294E4828907FF6004BAC15 /* Miscellaneous.swift in Sources */,
 				63729865288F650900E8883E /* CGPointTests.swift in Sources */,
 				63294E442890077B004BAC15 /* URLTests.swift in Sources */,
 			);
