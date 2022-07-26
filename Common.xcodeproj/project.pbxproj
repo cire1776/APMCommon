@@ -75,6 +75,8 @@
 		63729858288F64A600E8883E /* CommonTests */ = {
 			isa = PBXGroup;
 			children = (
+				63729872288FE01800E8883E /* SpriteKit */,
+				63729873288FE02300E8883E /* Support & Helpers */,
 				63729866288F651A00E8883E /* Extensions */,
 			);
 			path = CommonTests;
@@ -83,6 +85,8 @@
 		63729861288F64BD00E8883E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				63729871288FDFDE00E8883E /* SpriteKit */,
+				63729870288FDF7300E8883E /* Support & Helpers */,
 				6372986F288F657200E8883E /* Extensions */,
 			);
 			path = Common;
@@ -105,6 +109,34 @@
 				6372986A288F656000E8883E /* CGSize.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63729870288FDF7300E8883E /* Support & Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support & Helpers";
+			sourceTree = "<group>";
+		};
+		63729871288FDFDE00E8883E /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+		63729872288FE01800E8883E /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SpriteKit;
+			sourceTree = "<group>";
+		};
+		63729873288FE02300E8883E /* Support & Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Support & Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
