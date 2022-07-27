@@ -17,6 +17,8 @@
 		63294E5328913C23004BAC15 /* SKNode+toImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E5228913C23004BAC15 /* SKNode+toImageTests.swift */; };
 		63294E55289191E2004BAC15 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E54289191E2004BAC15 /* UserDefaults.swift */; };
 		63294E57289191F9004BAC15 /* UserDefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E56289191F9004BAC15 /* UserDefaultTests.swift */; };
+		63294E592891AE91004BAC15 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E582891AE91004BAC15 /* Double.swift */; };
+		63294E5B2891AEAC004BAC15 /* DoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E5A2891AEAC004BAC15 /* DoubleTests.swift */; };
 		6372985B288F64A600E8883E /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63729846288F637900E8883E /* libCommon.a */; };
 		63729865288F650900E8883E /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729864288F650900E8883E /* CGPointTests.swift */; };
 		63729868288F653600E8883E /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729867288F653600E8883E /* IntTests.swift */; };
@@ -48,6 +50,8 @@
 		63294E5228913C23004BAC15 /* SKNode+toImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+toImageTests.swift"; sourceTree = "<group>"; };
 		63294E54289191E2004BAC15 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		63294E56289191F9004BAC15 /* UserDefaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultTests.swift; sourceTree = "<group>"; };
+		63294E582891AE91004BAC15 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		63294E5A2891AEAC004BAC15 /* DoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTests.swift; sourceTree = "<group>"; };
 		63729846288F637900E8883E /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63729857288F64A600E8883E /* CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63729864288F650900E8883E /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 				63294E432890077B004BAC15 /* URLTests.swift */,
 				63294E5028908FFE004BAC15 /* StringTests.swift */,
 				63294E56289191F9004BAC15 /* UserDefaultTests.swift */,
+				63294E5A2891AEAC004BAC15 /* DoubleTests.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				63729876288FE42200E8883E /* NSImage.swift */,
 				63294E4128900733004BAC15 /* URL.swift */,
 				63294E54289191E2004BAC15 /* UserDefaults.swift */,
+				63294E582891AE91004BAC15 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 				63294E55289191E2004BAC15 /* UserDefaults.swift in Sources */,
 				63294E4228900733004BAC15 /* URL.swift in Sources */,
 				6372986C288F656000E8883E /* CGPoint.swift in Sources */,
+				63294E592891AE91004BAC15 /* Double.swift in Sources */,
 				63729875288FE08200E8883E /* SKNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +309,7 @@
 				63729865288F650900E8883E /* CGPointTests.swift in Sources */,
 				63294E5328913C23004BAC15 /* SKNode+toImageTests.swift in Sources */,
 				63294E5128908FFE004BAC15 /* StringTests.swift in Sources */,
+				63294E5B2891AEAC004BAC15 /* DoubleTests.swift in Sources */,
 				63294E442890077B004BAC15 /* URLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
