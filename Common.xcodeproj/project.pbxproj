@@ -10,6 +10,7 @@
 		63294E4228900733004BAC15 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E4128900733004BAC15 /* URL.swift */; };
 		63294E442890077B004BAC15 /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E432890077B004BAC15 /* URLTests.swift */; };
 		63294E4828907FF6004BAC15 /* Miscellaneous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63294E4728907FF6004BAC15 /* Miscellaneous.swift */; };
+		63294E4B28908810004BAC15 /* SKNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372987A288FF0AB00E8883E /* SKNodeTests.swift */; };
 		6372985B288F64A600E8883E /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63729846288F637900E8883E /* libCommon.a */; };
 		63729865288F650900E8883E /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729864288F650900E8883E /* CGPointTests.swift */; };
 		63729868288F653600E8883E /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729867288F653600E8883E /* IntTests.swift */; };
@@ -19,7 +20,6 @@
 		63729875288FE08200E8883E /* SKNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729874288FE08200E8883E /* SKNode.swift */; };
 		63729877288FE42200E8883E /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729876288FE42200E8883E /* NSImage.swift */; };
 		63729879288FE5F100E8883E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729878288FE5F100E8883E /* UIColor.swift */; };
-		6372987B288FF0AB00E8883E /* SKNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372987A288FF0AB00E8883E /* SKNodeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6372987B288FF0AB00E8883E /* SKNodeTests.swift in Sources */,
+				63294E4B28908810004BAC15 /* SKNodeTests.swift in Sources */,
 				63729868288F653600E8883E /* IntTests.swift in Sources */,
 				63294E4828907FF6004BAC15 /* Miscellaneous.swift in Sources */,
 				63729865288F650900E8883E /* CGPointTests.swift in Sources */,
