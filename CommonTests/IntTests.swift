@@ -10,7 +10,7 @@ import Common
 
 
 
-class OddEvenPredicatesTests: XCTestCase {
+class Int_OddEvenPredicatesTests: XCTestCase {
     func testIsOddReturnsCorrectly() {
         XCTAssert(9.isOdd)
         XCTAssertFalse(16.isOdd)
