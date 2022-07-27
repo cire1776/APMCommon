@@ -24,6 +24,9 @@
 		6343A8582891D51A008C71B1 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343A8572891D51A008C71B1 /* CGRect.swift */; };
 		6343A85A2891DB93008C71B1 /* CGRectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343A8592891DB93008C71B1 /* CGRectTests.swift */; };
 		6343A85C2891DEF4008C71B1 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343A85B2891DEF4008C71B1 /* CGVector.swift */; };
+		6343A85E2891E014008C71B1 /* RGBA32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343A85D2891E014008C71B1 /* RGBA32.swift */; };
+		6343A8602891E053008C71B1 /* RGBA32Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343A85F2891E053008C71B1 /* RGBA32Tests.swift */; };
+		6343A8622891EFB9008C71B1 /* RGBA32 + Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6343A8612891EFB9008C71B1 /* RGBA32 + Colors.swift */; };
 		6372985B288F64A600E8883E /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63729846288F637900E8883E /* libCommon.a */; };
 		63729865288F650900E8883E /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729864288F650900E8883E /* CGPointTests.swift */; };
 		63729868288F653600E8883E /* IntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63729867288F653600E8883E /* IntTests.swift */; };
@@ -62,6 +65,9 @@
 		6343A8572891D51A008C71B1 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		6343A8592891DB93008C71B1 /* CGRectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectTests.swift; sourceTree = "<group>"; };
 		6343A85B2891DEF4008C71B1 /* CGVector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
+		6343A85D2891E014008C71B1 /* RGBA32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBA32.swift; sourceTree = "<group>"; };
+		6343A85F2891E053008C71B1 /* RGBA32Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBA32Tests.swift; sourceTree = "<group>"; };
+		6343A8612891EFB9008C71B1 /* RGBA32 + Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBA32 + Colors.swift"; sourceTree = "<group>"; };
 		63729846288F637900E8883E /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		63729857288F64A600E8883E /* CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63729864288F650900E8883E /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
@@ -169,6 +175,8 @@
 		63729870288FDF7300E8883E /* Support & Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				6343A85D2891E014008C71B1 /* RGBA32.swift */,
+				6343A8612891EFB9008C71B1 /* RGBA32 + Colors.swift */,
 			);
 			path = "Support & Helpers";
 			sourceTree = "<group>";
@@ -195,6 +203,7 @@
 		63729873288FE02300E8883E /* Support & Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				6343A85F2891E053008C71B1 /* RGBA32Tests.swift */,
 			);
 			name = "Support & Helpers";
 			sourceTree = "<group>";
@@ -310,8 +319,10 @@
 				63294E4928908722004BAC15 /* SKNode+toImage.swift in Sources */,
 				63294E55289191E2004BAC15 /* UserDefaults.swift in Sources */,
 				63294E4228900733004BAC15 /* URL.swift in Sources */,
+				6343A85E2891E014008C71B1 /* RGBA32.swift in Sources */,
 				6372986C288F656000E8883E /* CGPoint.swift in Sources */,
 				63294E592891AE91004BAC15 /* Double.swift in Sources */,
+				6343A8622891EFB9008C71B1 /* RGBA32 + Colors.swift in Sources */,
 				63729875288FE08200E8883E /* SKNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +339,7 @@
 				63294E4828907FF6004BAC15 /* Miscellaneous.swift in Sources */,
 				63729865288F650900E8883E /* CGPointTests.swift in Sources */,
 				63294E5328913C23004BAC15 /* SKNode+toImageTests.swift in Sources */,
+				6343A8602891E053008C71B1 /* RGBA32Tests.swift in Sources */,
 				63294E5128908FFE004BAC15 /* StringTests.swift in Sources */,
 				63294E5B2891AEAC004BAC15 /* DoubleTests.swift in Sources */,
 				63294E442890077B004BAC15 /* URLTests.swift in Sources */,
